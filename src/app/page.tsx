@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import { Sidebar } from "@/components/Sidebar";
-import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize2 } from "lucide-react";
+imimport { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize2 } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -88,18 +88,11 @@ export default function Home() {
             <a href="" className="bg-white/5 p-3 flex flex-col gap-1 rounded-md hover:bg-white/10">
               <Image src="/album_cover.jpg" className="w-full" width={120} height={120} alt="Album Cover" />
               <strong className="font-semibold">Tokyo</strong>
-              <span className="text-sm text-zinc-400">Leat'eq</span>
+              <span className="text-sm text-zinc-400">Leat eq</span>
             </a>
             <a href="" className="bg-white/5 p-3 flex flex-col gap-1 rounded-md hover:bg-white/10">
               <Image src="/album_cover.jpg" className="w-full" width={120} height={120} alt="Album Cover" />
-              <strong className="font-semibold">Vitroles</strong>
-              <span className="text-sm text-zinc-400">Artista</span>
-            </a>
-          </div>
-        </main>
-      </div>
-
-      <Footer />
+Footer />
     </div>
   );
 }

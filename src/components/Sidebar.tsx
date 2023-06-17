@@ -22,7 +22,7 @@ export function Sidebar() {
         <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">METAL GUEAR RISING: REVENGEANCE</a>
         <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">You Give Love A Bad Name</a>
         <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Pop Internacional</a>
-        <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">80's Japonese City Pop</a>
+        <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">80s Japonese City Pop</a>
         <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Pfvr Não Eu Tenho Família</a>
         <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Minha playlist #9</a>
         <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Vibe Manhã 😴🥱</a>
