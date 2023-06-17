@@ -1,11 +1,27 @@
-import { Laptop2, LayoutList, Maximize2, Mic2, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume } from "lucide-react";
+import {
+  Laptop2,
+  LayoutList,
+  Maximize2,
+  Mic2,
+  Play,
+  Repeat,
+  Shuffle,
+  SkipBack,
+  SkipForward,
+  Volume,
+} from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
       <div className="flex items-center gap-2">
-        <Image src="/album_cover.jpg" width={56} height={56} alt="Album Cover" />
+        <Image
+          src="/album_cover.jpg"
+          width={56}
+          height={56}
+          alt="Album Cover"
+        />
         <div className="flex flex-col">
           <strong className="text-normal">Rope</strong>
           <span className="text-xs text-zinc-400">Foo Fighters</span>
@@ -42,5 +58,5 @@ export default function Footer() {
         <Maximize2 size={20} />
       </div>
     </footer>
-  )
+  );
 }
